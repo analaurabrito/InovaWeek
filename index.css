@@ -4,6 +4,10 @@
     border: 0px;
 }
 
+body{
+    background-color: #322E83;
+}
+
 header{
     display: flex;
     justify-content: space-around;
@@ -29,14 +33,15 @@ p#hero{
 }
 
 img#hero{
-    width: 300px;
+    width: 500px;
     margin-right: 10%
 }
 
 nav ul{
     display: flex;
     justify-content: space-around;
-    background-color: pink; 
+    background: rgb(193,25,118);
+    background: linear-gradient(90deg, rgba(193,25,118,1) 0%, rgba(230,92,117,1) 26%, rgba(234,125,96,1) 53%, rgba(238,138,79,1) 71%, rgba(243,157,36,1) 100%);
     padding-top: 10px;
     padding-bottom: 10px;
 }
