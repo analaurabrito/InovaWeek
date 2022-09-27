@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(21,10,44,1);
+    background: linear-gradient(180deg, rgba(7,0,16,1) 30%, rgba(21,10,44,1) 50%, rgba(50,46,131,1) 100%);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+    font-size: 50px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(193,25,118);
+    background: linear-gradient(90deg, rgba(193,25,118,1) 0%, rgba(230,92,117,1) 26%, rgba(234,125,96,1) 53%, rgba(238,138,79,1) 71%, rgba(243,157,36,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: black;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+section#galeria{
+    background-color: var(--primaria);
+    padding-inline: 15%;
+    padding-top: 7vh;
+    padding-bottom: 11vh;
+}
+section#galeria h1{
+    font-family: Thicker;
+    color: var(--terciaria);
+    text-transform: uppercase;
+    font-size:50px;
+    padding-bottom: 35px;
+}
+div.fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 7vw;
+    grid-gap: 3%;
+}
+div.imggaleria{
+    width: 17vw;
+    height: 17vw;
+    background-color: gray;
+    margin: 2px;
+}
+/* fotos */
+div#imgga{
+    background-image: url("./imgs/projeto1.jpeg");
+    background-size: 17vw;
+    background-position: 50%;
+}
+div#imggb{
+    background-image: url("./imgs/projeto4.jpeg");
+    background-size: 20vw;
+    background-position-x: 50%;
+    background-position-y: 80%;
+}
+div#imggc{
+    background-image: url("./imgs/projeto2.jpeg");
+    background-size: 25vw;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+div#imggd{
+    background-image: url("./imgs/projeto5.jpeg");
+    background-size: 25vw;
+    background-position-x: 20%;
+    background-position-y: 80%;
+}
+div#imgge{
+    background-image: url("./imgs/projeto3.jpeg");
+    background-size: 25vw;
+    background-position-x: 80%;
+    background-position-y: 20%;
+}
+div#imggf{
+    background-image: url("./imgs/projeto6.jpeg");
+    background-size: 20vw;
+    background-position-x: 20%;
+    background-position-y: 80%;
+}
+
+  footer{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    text-align: center;
+    background: rgb(193,25,118);
+    background: linear-gradient(90deg, rgba(193,25,118,1) 0%, rgba(230,92,117,1) 26%, rgba(234,125,96,1) 53%, rgba(238,138,79,1) 71%, rgba(243,157,36,1) 100%);
+    width: 100%;
+    bottom: 0px;
+    padding: 8px;
+    margin-top: 5%;
+}
